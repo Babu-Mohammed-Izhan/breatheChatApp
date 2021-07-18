@@ -1,3 +1,4 @@
+
 require('dotenv').config()
 const express = require('express');
 const app = express();
@@ -71,5 +72,5 @@ io.on("connection", socket => {
 });
 
 server.listen(8080, () => {
-    console.log('listening on *:3000');
+    console.log('listening on *:8080');
 });
